@@ -9,6 +9,5 @@ router.get("/student/data", auth, studentData)
 router.post("/student/save", auth, addStudent)
 router.post("/student/signup", signup)
 router.post("/student/login", login)
-router.get("/student/testauth", auth, studentData);
 
 module.exports = router;
